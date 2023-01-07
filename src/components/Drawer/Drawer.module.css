@@ -1,0 +1,46 @@
+.drawer__head {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.drawer__body {
+  margin-top: 26px;
+}
+
+.drawer__body .drawer__head__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawer__body .drawer__head__avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.drawer__body form {
+  display: grid;
+  grid-gap: 20px;
+  margin: 26px auto;
+}
+
+.drawer__body form > div {
+  display: grid;
+}
+
+.drawer__body form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.drawer__body form input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 2vh;
+}

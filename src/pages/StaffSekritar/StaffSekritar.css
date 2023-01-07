@@ -1,0 +1,116 @@
+.profile__staff__sekritar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.staff__sekritar {
+  height: max-content;
+
+  font-family: 'Inter';
+  padding: 50px;
+  background: #fff;
+  border-radius: 8px;
+  margin: 25px auto;
+}
+
+.staff__sekritar h3 {
+  float: right;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.staff__sekritar__form {
+  text-align: center;
+}
+
+.staff__sekritar__form input {
+  width: 400px;
+  height: 43px;
+
+  background: #edeef0;
+  outline: none;
+  border: 1px solid #dce1e6;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.staff__sekritar__form textarea:focus {
+  border: 1px solid blue;
+}
+
+.staff__sekritar__form input:focus {
+  border: 1px solid blue;
+}
+
+.staff__sekritar__form .label__title {
+  width: 100%;
+  max-width: 200px;
+
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.input__parent {
+  width: 100%;
+  height: 50px;
+
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.input__parent textarea {
+  resize: none;
+  width: 400px;
+  height: 140px;
+
+  background: #edeef0;
+  outline: none;
+  border: 1px solid #dce1e6;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 80px;
+}
+
+.btn__parent {
+  width: 100%;
+  text-align: end;
+}
+
+.btn__parent input {
+  width: 170px;
+  margin-top: 100px;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.btn__parent input:active {
+  border: 1px solid blue;
+}
+
+.label__title span {
+  color: red;
+}
+
+@media all and (max-width: 920px) {
+  .staff__sekritar {
+    padding: 30px;
+  }
+}

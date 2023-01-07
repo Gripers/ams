@@ -1,0 +1,57 @@
+.profile__staff {
+  padding: 3vh;
+}
+
+.profile__staff .profile__staff__head__neighborhoods {
+  display: flex;
+  gap: 20px;
+  margin: 26px auto;
+}
+
+.profile__staff
+  .profile__staff__head__neighborhoods
+  .profile__staff__head__neighborhoods__item {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2vh;
+}
+
+.profile__staff .profile__staff__body {
+  display: grid;
+  gap: 20px;
+}
+
+.profile__staff .profile__staff__body .profile__staff__body__item {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3vh;
+}
+
+.profile__staff
+  .profile__staff__body
+  .profile__staff__body__item
+  .profile__staff__body__item__begin {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__staff
+  .profile__staff__body
+  .profile__staff__body__item
+  .profile__staff__body__item__end {
+  width: 100%;
+}
+
+.profile__staff
+  .profile__staff__body
+  .profile__staff__body__item
+  .profile__staff__body__item__end
+  p {
+  margin-top: 10px;
+}
